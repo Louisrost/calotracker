@@ -1,0 +1,38 @@
+.kaloriendefizit{
+  width: 100%;
+  height: 256px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 16px;
+}
+.kaloriendefizit-ausgangsdaten{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.kaloriendefizit-ausgangsdaten-container{
+  width: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.grundumsatz-headline{
+  width: 128px;
+  margin: 0;
+  font-size: 14px;
+}
+.grundumsatz-subheadline{
+  width: 128px;
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.grundumsatz{
+  line-height: 1;
+  margin: 0;
+  font-size: 24px;
+}
