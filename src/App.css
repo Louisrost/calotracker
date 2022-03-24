@@ -4,6 +4,7 @@ body, html{
   background-color: black;
   max-width: 100vw;
   overflow-x: hidden;
+  color: white;
 }
 #root{
   overflow-x: hidden;

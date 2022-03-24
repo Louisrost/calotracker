@@ -59,7 +59,7 @@ function Nahrungsliste({nahrungsliste, setNahrungsliste, activeDate, setActiveDa
           <div className="kaloriendefizit-ausgangsdaten-container">
             <p className="grundumsatz-headline">Kaloriendefizit</p>
             <p className="grundumsatz-subheadline">in kcal</p>
-            <p className="grundumsatz gesamtkcal">{-(gesamtKcal-(formel.toFixed(1)*factor[0]).toFixed(1))+" kcal"}</p>
+            <p className="grundumsatz gesamtkcal">{-(gesamtKcal-(formel.toFixed(1)*factor[0]).toFixed(1)).toFixed(1)+" kcal"}</p>
           </div>
         </div>
         <KalorienChart nahrungsliste={nahrungsliste}></KalorienChart>

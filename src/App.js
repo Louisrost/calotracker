@@ -3,7 +3,6 @@ import BMI from "./Components/BMI/BMI"
 import React, {useState} from "react"
 import Kaloriendefizit from './Components/Kaloriendefizit/Kaloriendefizit';
 import Nahrungsliste from './Components/Nahrungsliste/Nahrungsliste';
-import KalorienChart from './Components/KalorienChart/KalorienChart';
 
 function App() {
   const [height, setHeight] = useState(0);
@@ -42,22 +41,132 @@ function App() {
           {
             name: "Käse",
             anzahl: 1,
-            kalorien: 800,
+            kalorien: 400,
           },
           {
             name: "Milch",
             anzahl: 4,
-            kalorien: 245,
+            kalorien: 25,
           },
           {
             name: "RedBull",
             anzahl: 1,
-            kalorien: 600,
+            kalorien: 60,
           },
           {
             name: "Käse",
             anzahl: 1,
-            kalorien: 800,
+            kalorien: 900,
+          },
+          {
+            name: "Milch",
+            anzahl: 4,
+            kalorien: 295,
+          },
+          {
+            name: "RedBull",
+            anzahl: 1,
+            kalorien: 700,
+          },
+        ]
+      },
+      {
+        date: "2022-03-26",
+        nahrung:[
+          {
+            name: "Nudeln",
+            anzahl: 1,
+            kalorien: 200,
+          },
+          {
+            name: "Brötchen",
+            anzahl: 4,
+            kalorien: 445,
+          },
+          {
+            name: "Ofenkäse",
+            anzahl: 1,
+            kalorien: 200,
+          }
+        ]
+      },
+      {
+        date: "2022-03-27",
+        nahrung:[
+          {
+            name: "Käse",
+            anzahl: 1,
+            kalorien: 100,
+          },
+          {
+            name: "Milch",
+            anzahl: 4,
+            kalorien: 145,
+          },
+          {
+            name: "RedBull",
+            anzahl: 1,
+            kalorien: 420,
+          },
+          {
+            name: "Käse",
+            anzahl: 1,
+            kalorien: 340,
+          },
+          {
+            name: "Milch",
+            anzahl: 4,
+            kalorien: 225,
+          },
+          {
+            name: "RedBull",
+            anzahl: 1,
+            kalorien: 900,
+          },
+        ]
+      },
+      {
+        date: "2022-03-28",
+        nahrung:[
+          {
+            name: "Nudeln",
+            anzahl: 1,
+            kalorien: 200,
+          },
+          {
+            name: "Brötchen",
+            anzahl: 4,
+            kalorien: 265,
+          },
+          {
+            name: "Ofenkäse",
+            anzahl: 1,
+            kalorien: 230,
+          }
+        ]
+      },
+      {
+        date: "2022-03-29",
+        nahrung:[
+          {
+            name: "Käse",
+            anzahl: 1,
+            kalorien: 200,
+          },
+          {
+            name: "Milch",
+            anzahl: 4,
+            kalorien: 435,
+          },
+          {
+            name: "RedBull",
+            anzahl: 1,
+            kalorien: 500,
+          },
+          {
+            name: "Käse",
+            anzahl: 1,
+            kalorien: 100,
           },
           {
             name: "Milch",
@@ -67,7 +176,7 @@ function App() {
           {
             name: "RedBull",
             anzahl: 1,
-            kalorien: 600,
+            kalorien: 2340,
           },
         ]
       }
