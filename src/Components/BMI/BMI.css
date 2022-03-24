@@ -54,6 +54,7 @@
   position: absolute;
   top: 0;
   right: 0;
+  cursor: pointer;
 }
 .bmi-age-value{
   font-size: 16px;

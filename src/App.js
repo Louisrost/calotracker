@@ -2,6 +2,7 @@ import './App.css';
 import BMI from "./Components/BMI/BMI"
 import React, {useState} from "react"
 import Kaloriendefizit from './Components/Kaloriendefizit/Kaloriendefizit';
+import Nahrungsliste from './Components/Nahrungsliste/Nahrungsliste';
 
 function App() {
   const [height, setHeight] = useState(0);
@@ -15,6 +16,8 @@ function App() {
       <BMI height={height} setHeight={setHeight} weight={weight} setWeight={setWeight} sex={sex} setSex={setSex} age={age} setage={setage} editMode={editMode} setEditMode={setEditMode}></BMI>
       <hr className="border"></hr>
       <Kaloriendefizit height={height} weight={weight} sex={sex} age={age} editMode={editMode}></Kaloriendefizit>
+      <hr className="border"></hr>
+      <Nahrungsliste></Nahrungsliste>
     </div>
   );
 }

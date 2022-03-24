@@ -3,6 +3,26 @@ import "./Kaloriendefizit.css"
 
 function Kaloriendefizit({height, weight, sex, age, editMode}) {
   const [formel, setFormel] = useState(0);
+  const [factor, setFactor] = useState([0.95, "Schlafend"]);
+  var activityText;
+  console.log(factor);
+
+  const handleActivityChange = (e)=> {
+    if(e.target.value==="0.95"){
+      activityText="Schlafend";
+    }else if(e.target.value==="1.2"){
+      activityText="Nur sitzend, liegend";
+    }else if(e.target.value==="1.45"){
+      activityText="Sitzend, kaum körperliche Aktivität";
+    }else if(e.target.value==="1.65"){
+      activityText="Überwiegend sitzend, gehend und stehend";
+    }else if(e.target.value==="1.85"){
+      activityText="Hauptsächlich stehend und gehend";
+    }else if(e.target.value==="2.2"){
+      activityText="Körperlich anstrengende Arbeit";  
+    }
+    setFactor([e.target.value, activityText]);
+  }
 
   useEffect(()=>{
     if(sex==="männlich"){
@@ -39,15 +59,26 @@ function Kaloriendefizit({height, weight, sex, age, editMode}) {
           <div className="kaloriendefizit-ausgangsdaten-container">
             <p className="grundumsatz-headline">Ihr Gesamtumsatz</p>
             <p className="grundumsatz-subheadline">in kcal</p>
-            <h1 className="grundumsatz">2494</h1>
+            <h1 className="grundumsatz">{(formel.toFixed(1)*factor[0]).toFixed(1)}</h1>
           </div>
           <div className="kaloriendefizit-ausgangsdaten-container">
-            <p className="grundumsatz-headline">Ihr Grundumsatz</p>
+            <p className="grundumsatz-headline">Max. Kaloriendefizit</p>
             <p className="grundumsatz-subheadline">in kcal</p>
-            <h1 className="grundumsatz">{formel.toFixed(1)}</h1>
+            <h1 className="grundumsatz">{((formel.toFixed(1)*factor[0]).toFixed(1)-formel.toFixed(1)).toFixed(1)}</h1>
           </div>
-          {editMode? <input type="checkbox">test</input>: ""}
       </div>
+          {editMode? 
+            <div className="helper"><p className="text activity-dropdown-text">Ihr Aktivitätsgrad</p>
+            <select name="" id="activities" onChange={(e)=>handleActivityChange(e)} className="activity-dropdown" value={factor[0]}>
+              <option className="activity-dropdown-option" value="0.95">Schlafend</option>
+              <option className="activity-dropdown-option" value="1.2">Nur sitzend, liegend</option>
+              <option className="activity-dropdown-option" value="1.45">Sitzend, kaum körperliche Aktivität</option>
+              <option className="activity-dropdown-option" value="1.65">Überwiegend sitzend, gehend und stehend</option>
+              <option className="activity-dropdown-option" value="1.85">Hauptsächlich stehend und gehend</option>
+              <option className="activity-dropdown-option" value="2.2">Körperlich anstrengende Arbeit</option>
+            </select>
+            </div>
+            : <div className="activity-container"><p className="text activity-dropdown-text">Ihr Aktivitätsgrad</p><p className="activity-dropdown-paragraph">{factor[1]}</p></div>}
     </div>
   )
 }
