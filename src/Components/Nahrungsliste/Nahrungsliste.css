@@ -1,6 +1,6 @@
 .nahrungsliste{
     width: 100%;
-    height: 256px;
+    height: 800px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -20,8 +20,74 @@
     width: 280px;
     height: 30px;
     font-size: 18px;
+    outline: none;
 }
 .nahrungsliste-headline{
     margin: 0px 0px 16px 0px;
     font-size: 24px;
+}
+.nahrungsliste-container{
+    width: 280px;
+    height: 186px;
+    background-color: transparent;
+    border: 2px solid white;
+    margin: 32px 0px 32px 0px;
+    border-top: 0;
+    border-bottom: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.nahrungsliste-container::-webkit-scrollbar{
+    width: 0;
+}
+.nahrungsmittel-container{
+    width: 280px;
+    height: 64px;
+    border: 0px 1px 0px 1px solid white;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: row;
+}
+.nahrungsmittel-loeschen{
+    float: right;
+    border: 0;
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 32px;
+    height: 32px;
+    margin: auto 0;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.nahrungsmittel-container--inner{
+    height: 64px;
+    width: 128px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.nahrungsmittel-name{
+    font-size: 16px;
+    font-weight: bold;
+}
+.nahrungsmittel-menge{
+    font-size: 12px;
+    font-weight: 400;
+}
+.textn{
+    margin: 0px;
+    margin-left: 8px;
+}
+.nahrungsmittel-kalorien{
+    height: 16px;
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    margin: auto;
+}
+.gesamtkcal{
+    font-size: 16px;
+    font-weight: bold;
 }

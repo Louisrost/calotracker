@@ -1,9 +1,8 @@
-import React, {useState, useEffect} from 'react'
+import React, {useEffect} from 'react'
 import "./Kaloriendefizit.css"
 
-function Kaloriendefizit({height, weight, sex, age, editMode}) {
-  const [formel, setFormel] = useState(0);
-  const [factor, setFactor] = useState([0.95, "Schlafend"]);
+function Kaloriendefizit({height, weight, sex, age, editMode, formel, setFormel, factor, setFactor}) {
+
   var activityText;
   console.log(factor);
 
