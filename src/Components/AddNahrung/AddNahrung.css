@@ -1,0 +1,153 @@
+.add-nahrung{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-nahrung-toggle{
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: white;
+    font-weight: 400;
+    font-size: 40px;
+    border-radius: 180px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 16px;
+    pointer-events: visible;
+    transition-duration: 200ms;
+}
+.add-nahrung-configuration{
+    width: 280px;
+    height: 360px;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 30px;
+    z-index: 11;
+    transition-duration: 200ms;
+    color: black;
+    pointer-events: all;
+    transform: scale(0);
+}
+.is-opened-configurator{
+    transform: scale(1);
+}
+.is-closing-button{
+    background-color: rgb(255, 119, 119);
+    transform:rotate(225deg) scale(.97);
+    z-index: 11;
+}
+.setBlur{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    pointer-events: none;
+    background-color: transparent;
+    opacity: 0.5;
+}
+.overlay{
+    background-color: rgb(56, 56, 56);
+    z-index: 10;
+    pointer-events: all;
+}
+.add-nahrung-headline-meal{
+    width: 110px;
+    height: 30px;
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+}
+.add-nahrung-container{
+    margin-top: 64px;
+    width: 220px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.add-nahrung-headline-portion{
+    margin-top: 32px;
+    margin-bottom: 0;
+}
+.add-nahrung-portionen{
+    min-height: 30px;
+    width: 40px;
+    border: 0px;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    padding: 0;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 16px;
+}
+.add-nahrung-datum{
+    min-height: 30px;
+    width: 180px;
+    border: 0px;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    padding: 0;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 16px;
+}
+.add-nahrung-datum::-webkit-calendar-picker-indicator{
+    position: absolute;
+    opacity: 0;
+    width: 100px;
+    height: 30px;
+}
+.add-to-list-button{
+    min-width: 60px;
+    min-height: 60px;
+    border: none;
+    background-color: rgb(179, 255, 144);
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 180px;
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 16px;
+    pointer-events: visible;
+    transition-duration: 200ms;
+    font-weight: 800;
+    transform: scale(0);
+    z-index: 11;
+}
+.show-add-button{
+    transform: scale(1);
+}

@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  width: 100%;
 }
 .bmi-value{
   margin: 0px 0px 16px 0px;
@@ -71,6 +72,7 @@
 .bmi-sex-value{
   font-size: 16px;
   height: 18px;
+  z-index: 0;
 }
 .bmi-bar-outter{
   width: 300px;
@@ -86,6 +88,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  width: 100%;
 }
 .bmi-bar-text{
   margin: 5px;

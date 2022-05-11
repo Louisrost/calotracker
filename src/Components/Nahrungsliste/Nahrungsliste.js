@@ -62,7 +62,7 @@ function Nahrungsliste({nahrungsliste, setNahrungsliste, activeDate, setActiveDa
             <p className="grundumsatz gesamtkcal">{-(gesamtKcal-(formel.toFixed(1)*factor[0]).toFixed(1)).toFixed(1)+" kcal"}</p>
           </div>
         </div>
-        <KalorienChart nahrungsliste={nahrungsliste}></KalorienChart>
+        <KalorienChart nahrungsliste={nahrungsliste} gesamtumsatz={(formel.toFixed(1)*factor[0]).toFixed(1)}></KalorienChart>
     </div>
   )
 }

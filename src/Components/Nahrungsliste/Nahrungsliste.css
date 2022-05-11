@@ -8,8 +8,9 @@
 }
 .nahrungsliste-datepicker::-webkit-calendar-picker-indicator{
     position: absolute;
-    width: 100%;
     opacity: 0;
+    width: 200px;
+    height: 50px;
 }
 .nahrungsliste-datepicker{
     color: white;
@@ -21,6 +22,7 @@
     height: 30px;
     font-size: 18px;
     outline: none;
+    box-sizing:border-box
 }
 .nahrungsliste-headline{
     margin: 0px 0px 16px 0px;

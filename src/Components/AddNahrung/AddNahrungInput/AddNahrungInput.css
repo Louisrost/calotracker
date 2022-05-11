@@ -1,0 +1,60 @@
+.add-nahrung-input{
+    height: 30px;
+    width: 184px;
+    border: 0px;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    padding: 0;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    font-weight: 700;
+    text-align: center;
+}
+.add-nahrung-recommendations{
+    display: flex;
+    width: 180px;
+    height: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex-direction: column;
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 131.5px;
+    transition-duration: 200ms;
+}
+.add-nahrung-recommendations::-webkit-scrollbar{
+    width: 0;
+}
+.opened-recommendations{
+    height: 80px;
+    border: 2px solid black;
+    border-top: 0;
+}
+.add-nahrung-input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 16px;
+}
+.recommendation{
+    width: 180px;
+    border: 0;
+    background-color: transparent;
+    height: 40px;
+    font-size: 12px;
+    display: block;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    font-weight: 600;
+}
+.recommendation:hover{
+    background-color: rgb(238, 238, 238);
+}

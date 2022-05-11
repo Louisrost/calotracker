@@ -3,6 +3,7 @@ import BMI from "./Components/BMI/BMI"
 import React, {useState} from "react"
 import Kaloriendefizit from './Components/Kaloriendefizit/Kaloriendefizit';
 import Nahrungsliste from './Components/Nahrungsliste/Nahrungsliste';
+import AddNahrung from './Components/AddNahrung/AddNahrung';
 
 function App() {
   const [height, setHeight] = useState(0);
@@ -191,6 +192,7 @@ function App() {
       <hr className="border"></hr>
       <Nahrungsliste nahrungsliste={nahrungsliste} setNahrungsliste={setNahrungsliste} activeDate={activeDate} setActiveDate={setActiveDate} formel={formel} factor={factor}></Nahrungsliste>
       <hr className="border"></hr>
+      <AddNahrung activeDate={activeDate}></AddNahrung>
     </div>
   );
 }
