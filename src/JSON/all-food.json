@@ -1,34 +1,1262 @@
 [
     {
-        "name": "food1",
-        "calories": 322
+        "name": "Apfel",
+        "calories": 52
     },
     {
-        "name": "Spaghetti Bolognese",
-        "calories": 123
+        "name": "Ananas",
+        "calories": 55
     },
     {
-        "name": "food3",
-        "calories": 422
+        "name": "Aprikose",
+        "calories": 43
     },
     {
-        "name": "food4",
+        "name": "Birne",
+        "calories": 55
+    },
+    {
+        "name": "Banane",
+        "calories": 88
+    },
+    {
+        "name": "Blaubeeren",
+        "calories": 35
+    },
+    {
+        "name": "Blutorange",
+        "calories": 45
+    },
+    {
+        "name": "Brombeeren",
+        "calories": 43
+    },
+    {
+        "name": "Cranberries",
+        "calories": 46
+    },
+    {
+        "name": "Erdbeeren",
         "calories": 32
     },
     {
-        "name": "food5",
-        "calories": 980
+        "name": "Feige",
+        "calories": 107
     },
     {
-        "name": "food6",
-        "calories": 700
+        "name": "Grapefruit",
+        "calories": 50
     },
     {
-        "name": "food7",
+        "name": "Granatapfel",
+        "calories": 74
+    },
+    {
+        "name": "Hagebutte",
+        "calories": 162
+    },
+    {
+        "name": "Honigmelone",
+        "calories": 54
+    },
+    {
+        "name": "Himbeeren",
+        "calories": 36
+    },
+    {
+        "name": "Ingwer",
+        "calories": 80
+    },
+    {
+        "name": "Kiwi",
+        "calories": 51
+    },
+    {
+        "name": "Kirschen",
+        "calories": 50
+    },
+    {
+        "name": "Litschi",
+        "calories": 66
+    },
+    {
+        "name": "Mandarine",
+        "calories": 50
+    },
+    {
+        "name": "Mango",
         "calories": 62
     },
     {
-        "name": "food8",
-        "calories": 12
-    }
+        "name": "Maracuja",
+        "calories": 97
+    },
+    {
+        "name": "Pflaume",
+        "calories": 47
+    },
+    {
+        "name": "Pfirsich",
+        "calories": 41
+    },
+    {
+        "name": "Quitte",
+        "calories": 38
+    },
+    {
+        "name": "Rhababer",
+        "calories": 21
+    },
+    {
+        "name": "Wassermelone",
+        "calories": 30
+    },
+    {
+        "name": "Weintraube",
+        "calories": 70
+    },
+    {
+        "name": "Zitrone",
+        "calories": 35
+    },
+    {
+        "name": "Bratwurst",
+        "calories": 375
+    },
+    {
+        "name": "Ente",
+        "calories": 375
+    },
+    {
+        "name": "Hirsch",
+        "calories": 375
+    },
+    {
+        "name": "Hähnchenbrust",
+        "calories": 75
+    },
+    {
+        "name": "Kalbfleisch",
+        "calories": 94
+    },
+    {
+        "name": "Lamm",
+        "calories": 178
+    },
+    {
+        "name": "Putenbrust",
+        "calories": 111
+    },
+    {
+        "name": "Salami",
+        "calories": 507
+    },
+    {
+        "name": "Schinken",
+        "calories": 335
+    },
+    {
+        "name": "Speck",
+        "calories": 645
+    },
+    {
+        "name": "Rinderfilet",
+        "calories": 115
+    },
+    {
+        "name": "Rinderhack",
+        "calories": 212
+    },
+    {
+        "name": "Rumpsteak",
+        "calories": 162
+    },
+    {
+        "name": "Schweinefilet",
+        "calories": 171
+    },
+    {
+        "name": "Schweinefleisch, fett",
+        "calories": 311
+    },
+    {
+        "name": "Schweinefleisch, mager",
+        "calories": 143
+    },
+    {
+        "name": "Schweineschnitzel",
+        "calories": 105
+    },
+    {
+        "name": "Wiener Würstchen",
+        "calories": 375
+    },
+    {
+        "name": "Aubergine",
+        "calories": 24
+    },
+    {
+        "name": "Artischoke",
+        "calories": 47
+    },
+    {
+        "name": "Avocado",
+        "calories": 160
+    },
+    {
+        "name": "Blumenkohl",
+        "calories": 25
+    },
+    {
+        "name": "Brokkoli",
+        "calories": 35
+    },
+    {
+        "name": "Bohnen",
+        "calories": 25
+    },
+    {
+        "name": "Brunnenkresse",
+        "calories": 19
+    },
+    {
+        "name": "Champignons",
+        "calories": 22
+    },
+    {
+        "name": "Chinakohl",
+        "calories": 13
+    },
+    {
+        "name": "Chili",
+        "calories": 40
+    },
+    {
+        "name": "Erbsen",
+        "calories": 82
+    },
+    {
+        "name": "Eisbergsalat",
+        "calories": 14
+    },
+    {
+        "name": "Fenchel",
+        "calories": 31
+    },
+    {
+        "name": "Gurke",
+        "calories": 15
+    },
+    {
+        "name": "Grünkohl",
+        "calories": 49
+    },
+    {
+        "name": "Karotte",
+        "calories": 36
+    },
+    {
+        "name": "Kartoffel",
+        "calories": 86
+    },
+    {
+        "name": "Kohlrabi",
+        "calories": 27
+    },
+    {
+        "name": "Kürbis",
+        "calories": 19
+    },
+    {
+        "name": "Lauch",
+        "calories": 31
+    },
+    {
+        "name": "Mais",
+        "calories": 108
+    },
+    {
+        "name": "Mangold",
+        "calories": 19
+    },
+    {
+        "name": "Paprika",
+        "calories": 21
+    },
+    {
+        "name": "Radieschen",
+        "calories": 16
+    },
+    {
+        "name": "Rote Beete",
+        "calories": 43
+    },
+    {
+        "name": "Rotkohl",
+        "calories": 29
+    },
+    {
+        "name": "Rosenkohl",
+        "calories": 43
+    },
+    {
+        "name": "Rucola",
+        "calories": 25
+    },
+    {
+        "name": "Spargel",
+        "calories": 18
+    },
+    {
+        "name": "Spinat",
+        "calories": 23
+    },
+    {
+        "name": "Süsskartoffel",
+        "calories": 86
+    },
+    {
+        "name": "Zucchini",
+        "calories": 20
+    },
+    {
+        "name": "Zwiebel",
+        "calories": 40
+    },
+    {
+        "name": "Forelle",
+        "calories": 50
+    },
+    {
+        "name": "Hecht",
+        "calories": 50
+    },
+    {
+        "name": "Hering",
+        "calories": 146
+    },
+    {
+        "name": "Lachs",
+        "calories": 137
+    },
+    {
+        "name": "Rotbarschfilet",
+        "calories": 111
+    },
+    {
+        "name": "Seelachsfilet",
+        "calories": 83
+    },
+    {
+        "name": "Thunfisch",
+        "calories": 144
+    },
+    {
+        "name": "Buttermilch",
+        "calories": 38
+    },
+    {
+        "name": "Creme fraiche",
+        "calories": 292
+    },
+    {
+        "name": "Cheddar",
+        "calories": 403
+    },
+    {
+        "name": "Emmentaler",
+        "calories": 382
+    },
+    {
+        "name": "Edamer",
+        "calories": 251
+    },
+    {
+        "name": "Ei",
+        "calories": 155
+    },
+    {
+        "name": "Hüttenkäse",
+        "calories": 104
+    },
+    {
+        "name": "Kokosmilch",
+        "calories": 136
+    },
+    {
+        "name": "Milch",
+        "calories": 47
+    },
+    {
+        "name": "Magerquark",
+        "calories":  67
+    },
+    {
+        "name": "Naturjoghurt",
+        "calories": 62
+    },
+    {
+        "name": "Sahne",
+        "calories": 204
+    },
+    {
+        "name": "Sauerrahm",
+        "calories": 162
+    },
+    {
+        "name": "Saure Sahne",
+        "calories": 115
+    },
+    {
+        "name": "Schmand",
+        "calories": 240
+    },
+    {
+        "name": "Bandnudeln, gekocht",
+        "calories": 142
+    },
+    {
+        "name": "Dinkelnudeln, gekocht",
+        "calories": 128
+    },
+    {
+        "name": "Farfalle, gekocht",
+        "calories": 147
+    },
+    {
+        "name": "Tagliatelle, gekocht",
+        "calories": 159
+    },
+    {
+        "name": "Glasnudeln",
+        "calories": 124
+    },
+    {
+        "name": "Vollkornspaghetti",
+        "calories": 152
+    },
+    {
+        "name": "Baguette",
+        "calories": 248
+    },
+    {
+        "name": "Brezel",
+        "calories": 217
+    },
+    {
+        "name": "Ciabatta",
+        "calories": 333
+    },
+    {
+        "name": "Croissant",
+        "calories": 393
+    },
+    {
+        "name": "Naan Brot",
+        "calories": 290
+    },
+    {
+        "name": "Pide",
+        "calories": 290
+    },
+    {
+        "name": "Vollkorntoast",
+        "calories": 244
+    },
+    {
+        "name": "Vollkornwrap",
+        "calories": 170
+    },
+    {
+        "name": "Zimtschnecke",
+        "calories": 384
+    },
+    {
+        "name": "Bier",
+        "calories": 43
+    },
+    {
+        "name": "Gin Tonic",
+        "calories": 377
+    },
+    {
+        "name": "Vodka",
+        "calories": 215
+    },
+    {
+        "name": "Wein",
+        "calories": 83
+    },
+    {
+        "name": "Cheeseburger",
+        "calories": 600
+    },
+    {
+        "name": "Chips",
+        "calories": 539
+    },
+    {
+        "name": "Currywurst",
+        "calories": 533
+    },
+    {
+        "name": "Döner",
+        "calories": 774
+    },
+    {
+        "name": "Kekse mit Schokolade",
+        "calories": 512
+    },
+    {
+        "name": "Vegetarischer Döner",
+        "calories": 385
+    },
+    {
+        "name": "Pizza Margherita",
+        "calories": 199
+    },
+    {
+        "name": "Pizza Salami",
+        "calories": 245
+    },
+    {
+        "name": "Pommes Frites",
+        "calories": 291
+    },
+    {
+        "name": "Hamburger",
+        "calories": 255
+    },
+    {
+        "name": "Hamburger Royal TS",
+        "calories": 255
+    },
+    {
+        "name": "Nutella Aufstrich",
+        "calories": 547
+    },
+    {
+        "name": "Bacon & Egg McMuffin",
+        "calories": 315
+    },
+    {
+        "name": "BBQ Rib",
+        "calories": 414
+    },
+    {
+        "name": "Big Bacon & Eggs",
+        "calories": 445
+    },
+    {
+        "name": "Big Chicken TS",
+        "calories": 549
+    },
+    {
+        "name": "Big King",
+        "calories": 551
+    },
+    {
+        "name": "Big Mac",
+        "calories": 497
+    },
+    {
+        "name": "Big Tasty Bacon",
+        "calories": 932
+    },
+    {
+        "name": "Bismarck Baguette",
+        "calories": 277
+    },
+    {
+        "name": "Bremer Fischbrötchen",
+        "calories": 337
+    },
+    {
+        "name": "Chicken McNuggets",
+        "calories": 240
+    },
+    {
+        "name": "Chicken Teriyaki",
+        "calories": 303
+    },
+    {
+        "name": "Chickenburger",
+        "calories": 315
+    },
+    {
+        "name": "Chili Cheese Nuggets",
+        "calories": 366
+    },
+    {
+        "name": "Doppel Cheeseburger",
+        "calories": 439
+    },
+    {
+        "name": "Doppel Hamburger",
+        "calories": 349
+    },
+    {
+        "name": "Filet-o-Fish",
+        "calories": 345
+    },
+    {
+        "name": "Frühlingsrollen mit Gemüsefüllung",
+        "calories": 664
+    },
+    {
+        "name": "Gebratene Nudeln mit Gemüse",
+        "calories": 1770
+    },
+    {
+        "name": "Salat mit Chicken",
+        "calories": 185
+    },
+    {
+        "name": "Chicken Wrap",
+        "calories": 313
+    },
+    {
+        "name": "Hotdog",
+        "calories": 424
+    },
+    {
+        "name": "Hähnchen Döner",
+        "calories": 581
+    },
+    {
+        "name": "6er Chicken Wings",
+        "calories": 374
+    },
+    {
+        "name": "Long Chicken",
+        "calories": 588
+    },
+    {
+        "name": "McChicken",
+        "calories": 588
+    },
+    {
+        "name": "McDouble",
+        "calories": 394
+    },
+    {
+        "name": "McRib",
+        "calories": 496
+    },
+    {
+        "name": "Nachos mit Käse",
+        "calories": 413
+    },
+    {
+        "name": "Gewöhnliches Sandwich (Ham/Cheese)",
+        "calories": 250
+    },
+    {
+        "name": "Steak & Käse",
+        "calories": 561
+    },
+    {
+        "name": "Whopper",
+        "calories": 635
+    },
+    {
+        "name": "Pizza Calzone",
+        "calories": 748
+    },
+    {
+        "name": "Flammenkuchen",
+        "calories": 858
+    },
+    {
+        "name": "Lamacun",
+        "calories": 825
+    },
+    {
+        "name": "Piccolinis 9 Stück",
+        "calories": 702
+    },
+    {
+        "name": "Pizza Baguette",
+        "calories": 379
+    },
+    {
+        "name": "Pizza Calabrese Salami",
+        "calories": 796
+    },
+    {
+        "name": "Pizza Caprese",
+        "calories": 673
+    },
+    {
+        "name": "Pizza Capricciosa",
+        "calories": 700
+    },
+    {
+        "name": "Pizza Champignon",
+        "calories": 749
+    },
+    {
+        "name": "Pizza Chicken",
+        "calories": 732
+    },
+    {
+        "name": "Pizza Diavolo",
+        "calories": 802
+    },
+    {
+        "name": "Pizza Fantastica",
+        "calories": 802
+    },
+    {
+        "name": "Pizza Frutti di Mare",
+        "calories": 684
+    },
+    {
+        "name": "Pizza Grillgemüse",
+        "calories": 547
+    },
+    {
+        "name": "Pizza Hawaii",
+        "calories": 742
+    },
+    {
+        "name": "Pizza Käse Quartett",
+        "calories": 875
+    },
+    {
+        "name": "Pizza Mozzarella",
+        "calories": 816
+    },
+    {
+        "name": "Pizza Napoli",
+        "calories": 676
+    },
+    {
+        "name": "Pizza Peperoni",
+        "calories": 806
+    },
+    {
+        "name": "Pizza Prosciutto",
+        "calories": 766
+    },
+    {
+        "name": "Pizza Regina",
+        "calories": 896
+    },
+    {
+        "name": "Pizza Rucola",
+        "calories": 852
+    },
+    {
+        "name": "Pizza Schinken",
+        "calories": 749
+    },
+    {
+        "name": "Pizza Speciale",
+        "calories": 812
+    },
+    {
+        "name": "Pizza Spinat",
+        "calories": 805
+    },
+    {
+        "name": "Pizza Spinat Weißkäse",
+        "calories": 643
+    },
+    {
+        "name": "Pizza Texas",
+        "calories": 882
+    },
+    {
+        "name": "Pizza Thunfisch",
+        "calories": 840
+    },
+    {
+        "name": "Pizza Vegetaria",
+        "calories": 609
+    },
+    {
+        "name": "Pizzabrötchen",
+        "calories": 241
+    },
+    {
+        "name": "Pizzateig",
+        "calories": 255
+    },
+    {
+        "name": "Pizzatoast",
+        "calories": 138
+    },
+    {
+        "name": "Rum",
+        "calories": 246
+    },
+    {
+        "name": "Absinth",
+        "calories": 472
+    },
+    {
+        "name": "Amaretto",
+        "calories": 310
+    },
+    {
+        "name": "Aperol",
+        "calories": 191
+    },
+    {
+        "name": "Aquavit",
+        "calories": 250
+    },
+    {
+        "name": "Asti",
+        "calories": 108
+    },
+    {
+        "name": "Baileys",
+        "calories": 327
+    },
+    {
+        "name": "Bier",
+        "calories": 42
+    },
+    {
+        "name": "Cachaca",
+        "calories": 246
+    },
+    {
+        "name": "Calvados",
+        "calories": 313
+    },
+    {
+        "name": "Campari",
+        "calories": 45
+    },
+    {
+        "name": "Champagner",
+        "calories": 76
+    },
+    {
+        "name": "Apfelwein",
+        "calories": 45
+    },
+    {
+        "name": "Cognac",
+        "calories": 255
+    },
+    {
+        "name": "Cointreau",
+        "calories": 242
+    },
+    {
+        "name": "Eierlikör",
+        "calories": 284
+    },
+    {
+        "name": "Feuerzangenbowle",
+        "calories": 127
+    },
+    {
+        "name": "Gin",
+        "calories": 262
+    },
+    {
+        "name": "Glühwein",
+        "calories": 87
+    },
+    {
+        "name": "Grappa",
+        "calories": 246
+    },
+    {
+        "name": "Havana Club",
+        "calories": 230
+    },
+    {
+        "name": "Jack Daniels",
+        "calories": 230
+    },
+    {
+        "name": "Jagertee",
+        "calories": 124
+    },
+    {
+        "name": "Jim Beam",
+        "calories": 240
+    },
+    {
+        "name": "Jägermeister",
+        "calories": 250
+    },
+    {
+        "name": "Kirschwasser",
+        "calories": 252
+    },
+    {
+        "name": "Korn",
+        "calories": 197
+    },
+    {
+        "name": "Kümmerling",
+        "calories": 248
+    },
+    {
+        "name": "Likör",
+        "calories": 194
+    },
+    {
+        "name": "Malibu",
+        "calories": 173
+    },
+    {
+        "name": "Ouzo",
+        "calories": 234
+    },
+    {
+        "name": "Pfefferminzlikör",
+        "calories": 371
+    },
+    {
+        "name": "Portwein",
+        "calories": 160
+    },
+    {
+        "name": "Prosecco",
+        "calories": 76
+    },
+    {
+        "name": "Punsch",
+        "calories": 50
+    },
+    {
+        "name": "Ramazzotti",
+        "calories": 275
+    },
+    {
+        "name": "Rosé",
+        "calories": 71
+    },
+    {
+        "name": "Rotwein",
+        "calories": 65
+    },
+    {
+        "name": "Sambuca",
+        "calories": 285
+    },
+    {
+        "name": "Sangria",
+        "calories": 96
+    },
+    {
+        "name": "Sekt",
+        "calories": 76
+    },
+    {
+        "name": "Tequila",
+        "calories": 246
+    },
+    {
+        "name": "Weißwein",
+        "calories": 69
+    },
+    {
+        "name": "Wermut",
+        "calories": 118
+    },
+    {
+        "name": "Whisky",
+        "calories": 246
+    },
+    {
+        "name": "7up",
+        "calories": 109
+    },
+    {
+        "name": "Afri Cola",
+        "calories": 42
+    },
+    {
+        "name": "Kräuterlimonade",
+        "calories": 35
+    },
+    {
+        "name": "Apfelschorle",
+        "calories": 35
+    },
+    {
+        "name": "Bionade Holunder",
+        "calories": 22
+    },
+    {
+        "name": "Bionade Ingwer-Orange",
+        "calories": 19
+    },
+    {
+        "name": "Bionade Kräuter",
+        "calories": 22
+    },
+    {
+        "name": "Bionade Litschi",
+        "calories": 21
+    },
+    {
+        "name": "Bitter Lemon",
+        "calories": 50
+    },
+    {
+        "name": "Canada Dry",
+        "calories": 39
+    },
+    {
+        "name": "Capri-Sonne",
+        "calories": 29
+    },
+    {
+        "name": "Cherry Coke",
+        "calories": 42
+    },
+    {
+        "name": "Club Mate",
+        "calories": 20
+    },
+    {
+        "name": "Coca Cola",
+        "calories": 37
+    },
+    {
+        "name": "Coca Cola Zero",
+        "calories": 0
+    },
+    {
+        "name": "Dr. Pepper Cola",
+        "calories": 27
+    },
+    {
+        "name": "Eistee",
+        "calories": 29
+    },
+    {
+        "name": "Energy-Drink",
+        "calories": 11
+    },
+    {
+        "name": "Fanta",
+        "calories": 38
+    },
+    {
+        "name": "Fanta Lemon",
+        "calories": 45
+    },
+    {
+        "name": "Fanta Mandarine",
+        "calories": 41
+    },
+    {
+        "name": "Fanta Zero",
+        "calories": 0
+    },
+    {
+        "name": "Fassbrause",
+        "calories": 24
+    },
+    {
+        "name": "Fritz Kola",
+        "calories": 42
+    },
+    {
+        "name": "Ginger Ale",
+        "calories": 34
+    },
+    {
+        "name": "Libella",
+        "calories": 43
+    },
+    {
+        "name": "Lift",
+        "calories": 25
+    },
+    {
+        "name": "Limonade",
+        "calories": 42
+    },
+    {
+        "name": "Lipton",
+        "calories": 25
+    },
+    {
+        "name": "Mezzo Mix",
+        "calories": 43
+    },
+    {
+        "name": "Mezzo Mix Zero",
+        "calories": 1
+    },
+    {
+        "name": "Nestea",
+        "calories": 29
+    },
+    {
+        "name": "Orangenlimonade",
+        "calories": 36
+    },
+    {
+        "name": "Orangina",
+        "calories": 45
+    },
+    {
+        "name": "Pepsi",
+        "calories": 44
+    },
+    {
+        "name": "Pepsi Light",
+        "calories": 1
+    },
+    {
+        "name": "Punica",
+        "calories": 23
+    },
+    {
+        "name": "Red Bull",
+        "calories": 45
+    },
+    {
+        "name": "Schwip Schwap",
+        "calories": 45
+    },
+    {
+        "name": "Sinalco",
+        "calories": 40
+    },
+    {
+        "name": "Soda Wasser",
+        "calories": 0
+    },
+    {
+        "name": "Spezi",
+        "calories": 44
+    },
+    {
+        "name": "Sprite",
+        "calories": 37
+    },
+    {
+        "name": "Sprite Zero",
+        "calories": 1
+    },
+    {
+        "name": "Tonic Water",
+        "calories": 34
+    },
+    {
+        "name": "Vanilla Coke",
+        "calories": 45
+    },
+    {
+        "name": "Vita Cola",
+        "calories": 36
+    },
+    {
+        "name": "A-C-E Drink",
+        "calories": 44
+    },
+    {
+        "name": "Cappuccino",
+        "calories": 20
+    },
+    {
+        "name": "Muckefuck",
+        "calories": 371
+    },
+    {
+        "name": "Chai Latte",
+        "calories": 437
+    },
+    {
+        "name": "Eiweiß Shake",
+        "calories": 366
+    },
+    {
+        "name": "Milchshake",
+        "calories": 113
+    },
+    {
+        "name": "Espresso",
+        "calories": 2
+    },
+    {
+        "name": "Getränkesirup",
+        "calories": 319
+    },
+    {
+        "name": "Heiße Schokolade",
+        "calories": 151
+    },
+    {
+        "name": "Karamalz",
+        "calories": 44
+    },
+    {
+        "name": "Mineralwasser",
+        "calories": 0
+    },
+    {
+        "name": "Leitungswasser",
+        "calories": 0
+    },
+    {
+        "name": "Tee",
+        "calories": 0
+    },
+    {
+        "name": "Tomatensaft",
+        "calories": 37
+    },
+    {
+        "name": "Tonic Water",
+        "calories": 34
+    },
+    {
+        "name": "Wasser mit Geschmack",
+        "calories": 11
+    },
+    {
+        "name": "Gemüsebrühe",
+        "calories": 3
+    },
+    {
+        "name": "Hühnerbrühe",
+        "calories": 1
+    },
+    {
+        "name": "Kürbissuppe",
+        "calories": 65
+    },
+    {
+        "name": "Pilzcremesuppe",
+        "calories": 29
+    },
+    {
+        "name": "Spargelsuppe",
+        "calories": 49
+    },
+    {
+        "name": "Tomatensuppe",
+        "calories": 23
+    },
+    {
+        "name": "Nudelsuppe",
+        "calories": 26
+    },
+    {
+        "name": "Haferflakes",
+        "calories": 385
+    },
+    {
+        "name": "Cornflakes",
+        "calories": 375
+    },
+    {
+        "name": "Vollkornmüsli",
+        "calories": 404
+    },
 ]

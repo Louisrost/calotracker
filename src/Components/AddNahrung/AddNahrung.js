@@ -29,7 +29,6 @@ function AddNahrung({activeDate, nahrungsliste, setNahrungsliste, setActiveDate}
       var clr = calories;
       var nrglst = nahrungsliste;
       var testing = false;
-      var testing2 = false;
       if(nrg!=="" && port && clr!==0){
         for(var x= 0; x<nrglst.length;x++){
           if(nrglst[x].date===inputDate){
@@ -90,7 +89,7 @@ function AddNahrung({activeDate, nahrungsliste, setNahrungsliste, setActiveDate}
               <>
               <h4 className="add-nahrung-headline-meal">Mahlzeit</h4>
               <AddNahrungInput setCalories={setCalories} setIsFilled={setIsFilled} isFilled={isFilled} value={value} setValue={setValue}></AddNahrungInput>
-              <h4 className="add-nahrung-headline-portion">Portion</h4>
+              <h4 className="add-nahrung-headline-portion">Portion <br></br><span className="small">(100g/Einheit)</span><div className="information">?<br></br><span className="tooltiptext"><br></br>Einzelnes Nahrungsmittel (BSP. Nudeln) = 100g <br></br><br></br>Zusammengesetzes Nahrungsmittel (BSP. Cheesburger) = ein ganzer Burger bzw. eine Einheit<br></br><br></br></span></div></h4>
               <input type="number" className="add-nahrung-portionen" value={portions} onChange={e=>setPortions(e.target.value)} min="1"></input>
               <h4 className="add-nahrung-headline-portion">Datum</h4>
               <input type="date" className="add-nahrung-datum" value={inputDate} onChange={(e)=>setInputDate(e.target.value)}></input>
@@ -110,7 +109,7 @@ function AddNahrung({activeDate, nahrungsliste, setNahrungsliste, setActiveDate}
               </>  
               )
               }
-              <button className="toggle-preset-food" onClick={()=>handlePresetFoodToggle()}>{preselectedFood? "Add your own food": "Add pre-entered Food"}</button>
+              <button className="toggle-preset-food" onClick={()=>handlePresetFoodToggle()}>{preselectedFood? "Eigenes Essen hinzufügen": "Voreingetragenes Essen hinzufügen"}</button>
             </div>
         </div>
         <button className={classnames({
