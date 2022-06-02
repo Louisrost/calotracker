@@ -29,7 +29,7 @@
 }
 .add-nahrung-configuration{
     width: 280px;
-    height: 360px;
+    height: 440px;
     position: fixed;
     align-items: center;
     justify-content: center;
@@ -76,9 +76,8 @@
     margin-top: 32px;
 }
 .add-nahrung-container{
-    margin-top: 64px;
     width: 220px;
-    height: 240px;
+    height: 340px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,6 +103,10 @@
     font-weight: 700;
     text-align: center;
     margin-top: 16px;
+}
+.add-nahrung-portionen::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 .add-nahrung-datum{
     min-height: 30px;
@@ -147,7 +150,45 @@
     font-weight: 800;
     transform: scale(0);
     z-index: 11;
+    margin: 16px;
 }
 .show-add-button{
     transform: scale(1);
+}
+.toggle-preset-food{
+    color: black;
+    background-color: transparent;
+    border: 0px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.add-nahrung-newfood{
+    border: 0;
+    background-color: transparent;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    margin-top: 16px;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 2px;
+}
+.newfood{
+    margin-top: 16px;
+    line-height: 1;
+}
+.add-nahrung-newfood-calorie{
+    width: 48px;
+    outline: none;
+}
+.add-nahrung-newfood-calorie::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.small{
+    font-size: 12px;
+    margin: 0;
 }

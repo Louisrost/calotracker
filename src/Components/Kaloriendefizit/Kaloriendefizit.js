@@ -4,7 +4,6 @@ import "./Kaloriendefizit.css"
 function Kaloriendefizit({height, weight, sex, age, editMode, formel, setFormel, factor, setFactor}) {
 
   var activityText;
-  console.log(factor);
 
   const handleActivityChange = (e)=> {
     if(e.target.value==="0.95"){
@@ -46,7 +45,7 @@ function Kaloriendefizit({height, weight, sex, age, editMode, formel, setFormel,
         setFormel((0.038*weight*2.755)*239)
       }
     }
-  }, [height, weight, sex, age])
+  }, [height, weight, sex, age, setFormel])
   return (
     <div className="kaloriendefizit">
       <div className="kaloriendefizit-ausgangsdaten">

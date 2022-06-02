@@ -15,7 +15,6 @@ const KalorienChart = ({nahrungsliste, gesamtumsatz}) => {
       }
       chartData[x]=calorie
     }
-    console.log(chartData, chartLabels)
   }
   setChartData();
   return (

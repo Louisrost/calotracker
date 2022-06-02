@@ -53,14 +53,17 @@
 .nahrungsmittel-loeschen{
     float: right;
     border: 0;
-    color: white;
+    color: black;
     background-color: transparent;
     border-radius: 5px;
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     margin: auto 0;
     font-size: 16px;
     font-weight: bolder;
+    border-radius: 8px;
+    background-color: white;
+    margin: auto 8px;
 }
 .nahrungsmittel-container--inner{
     height: 64px;
@@ -81,6 +84,7 @@
 .textn{
     margin: 0px;
     margin-left: 8px;
+    text-align: left;
 }
 .nahrungsmittel-kalorien{
     height: 16px;

@@ -1,0 +1,34 @@
+[
+    {
+        "name": "food1",
+        "calories": 322
+    },
+    {
+        "name": "Spaghetti Bolognese",
+        "calories": 123
+    },
+    {
+        "name": "food3",
+        "calories": 422
+    },
+    {
+        "name": "food4",
+        "calories": 32
+    },
+    {
+        "name": "food5",
+        "calories": 980
+    },
+    {
+        "name": "food6",
+        "calories": 700
+    },
+    {
+        "name": "food7",
+        "calories": 62
+    },
+    {
+        "name": "food8",
+        "calories": 12
+    }
+]

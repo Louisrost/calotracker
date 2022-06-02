@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./BMI.css"
 
 function BMI({height, setHeight, weight, setWeight, sex, setSex, age, setage, editMode, setEditMode}) {
@@ -47,7 +48,6 @@ function BMI({height, setHeight, weight, setWeight, sex, setSex, age, setage, ed
                 bmiChartSetup=[23, 29]
             }     
         }
-        console.log(document.querySelector(".bmi-bar-inner").style.marginLeft)
         var barMarginleft = (bmiChartSetup[0]/50)*300+"px";
         var barWidth = ((bmiChartSetup[1]-bmiChartSetup[0])/50)*300+"px";
         document.querySelector(".bmi-bar-inner").style.marginLeft= barMarginleft;
@@ -55,6 +55,9 @@ function BMI({height, setHeight, weight, setWeight, sex, setSex, age, setage, ed
         document.querySelector(".bmi-bar-inner-value").style.marginLeft=(bmi/50)*300+"px";
     }
     }
+    useEffect(()=>{
+        setBmiChart()
+    }, [height, weight, sex, age], setBmiChart)
 
     const handleEditModeClick = ()=> {
         setEditMode(!editMode);

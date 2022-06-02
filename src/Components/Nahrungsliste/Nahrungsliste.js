@@ -21,17 +21,49 @@ function Nahrungsliste({nahrungsliste, setNahrungsliste, activeDate, setActiveDa
       }
     }
     setNahrung();
+
+    const handleDeleteClick=(x)=>{
+      var duplicatedList = nahrungsliste;
+      var finishedTesting= false;
       
+      for(var d = 0; d<duplicatedList.length;d++){
+        if(duplicatedList[d].date===activeDate && finishedTesting===false){
+          for(var y = 0; y<duplicatedList[d].nahrung.length; y++){
+            if(duplicatedList[d].nahrung[y].name===x.name && duplicatedList[d].nahrung[y].anzahl===x.anzahl){
+              duplicatedList[d].nahrung.splice(y, 1);
+              finishedTesting=true;
+            }
+          }
+        }
+      }
+      for(var k = 0; k<duplicatedList.length; k++){
+        if(duplicatedList[k].nahrung.length===0){
+          duplicatedList.splice(k);
+        }
+      }
+      duplicatedList.sort((a, b)=>{
+        let da = new Date(a.date);
+        let db = new Date(b.date);
+        return da - db;
+      });
+      setNahrungsliste(duplicatedList);
+      setActiveDate("9999-01-01");
+      setTimeout(()=>{
+        setActiveDate(activeDate);
+      }, 50)
+    }
+ 
     const getNahrung= activeDay.map((x)=>{
       var key= Math.floor(Math.random() * 100000)
-        return (
+      var vls=x;
+      return (
           <div className="nahrungsmittel-container" key={key}>
             <div className="nahrungsmittel-container--inner">
               <p className="textn nahrungsmittel-name">{x.name}</p>
               <p className="textn nahrungsmittel-menge">Anzahl: {x.anzahl}</p>
             </div>
             <p className="nahrungsmittel-kalorien">{x.kalorien*x.anzahl} kcal</p>
-            <button className="nahrungsmittel-loeschen">x</button>
+            <button className="nahrungsmittel-loeschen" onClick={()=>handleDeleteClick(vls)}>x</button>
           </div>
         )
       })
